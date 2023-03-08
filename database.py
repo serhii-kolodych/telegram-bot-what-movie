@@ -15,3 +15,6 @@ def all_movies_from_db():
     return result.all()
 
 print(all_movies_from_db())
+
+if __name__ == "__main__":
+    print("Hello, World!")
