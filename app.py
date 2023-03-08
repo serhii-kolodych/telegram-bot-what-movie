@@ -1,4 +1,8 @@
 from sqlalchemy import create_engine, text
+import os
+
+# Get the value of an environment variable
+DB_CONN = os.environ.get('DB_CONN')
 
 
 engine = create_engine(
